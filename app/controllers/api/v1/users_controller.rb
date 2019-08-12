@@ -10,6 +10,10 @@ class Api::V1::UsersController < ApplicationController
 	  render json: UserSerializer.new(@user).serialized_json
 	end
 
+	def new
+	  @user = User.new
+	end
+
 	private
 
 	def user_params
