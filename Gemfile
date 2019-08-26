@@ -33,6 +33,8 @@ gem 'rack-cors'
 
 gem 'rb-readline'
 
+gem "nokogiri", ">= 1.10.4"
+
 gem 'jwt', '~> 2.2', '>= 2.2.1'
 
 group :development, :test do
